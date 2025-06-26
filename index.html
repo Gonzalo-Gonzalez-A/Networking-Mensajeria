@@ -1,32 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chat Layout</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="UTF-8">
+  <title>Lista de Contactos</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <div class="container">
+
+  <div class="main-container">
+    <!-- Panel Izquierdo -->
     <aside class="sidebar">
-      <button class="new-chat">Nuevo Chat</button>
-      <ul class="chat-list">
-        <li>Juanita <span>At vero eos et accusa</span></li>
-        <li>Alberto <span>blanditiis praesentium</span></li>
-        <li>Ignacio <span>officiis debitis aut</span></li>
-        <li>Cristian <span>Nam libero tempore</span></li>
-        <li>María José <span>impedit quo minus id</span></li>
-        <li>Gonzalo <span>At vero eos et accusa</span></li>
-        <li>Juan Pablo <span>necessitatibus saepe</span></li>
-        <li>Magdalena <span>ut et voluptates</span></li>
-      </ul>
+      <button class="nuevo-chat">
+        <i class="fas fa-plus"></i> Nuevo Chat
+      </button>
+
+      <div class="contact-list">
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.27.14.jpg" alt="Juanita" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">Juanita</div>
+            <div class="descripcion">At vero eos et accusa</div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.28.04.jpg" alt="Alberto" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">Alberto</div>
+            <div class="descripcion">blanditiis praesentium</div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.28.30.jpg" alt="Ignacio" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">Ignacio</div>
+            <div class="descripcion">officiis debitis aut</div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.30.34.jpg" alt="María" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">María</div>
+            <div class="descripcion">voluptatem accusantium</div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.30.54.jpg" alt="Carlos" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">Carlos</div>
+            <div class="descripcion">doloremque laudantium</div>
+          </div>
+        </div>
+        
+        
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.31.09.jpg" alt="Lucía" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">Lucía</div>
+            <div class="descripcion">totam rem aperiam</div>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.32.16.jpg" alt="Pedro" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">Pedro</div>
+            <div class="descripcion">eaque ipsa quae ab illo</div>
+          </div>
+        </div>          
+
+        <div class="contact-card">
+          <img src="./assets/img/Screen Shot 2018-11-28 at 15.32.44.jpg" alt="Sofía" class="avatar">
+          <div class="contact-info">
+            <div class="nombre">Sofía</div>
+            <div class="descripcion">inventore veritatis et quasi</div>
+          </div>
+        </div>
+        <!-- Agrega más contactos según sea necesario -->
+      </div>
     </aside>
-    <main class="main">
-        <img src="./assets/img/hand.png" alt="manos unidas" class="hand-image">
-      <h1>Comienza el Networking</h1>
-      <p>Presiona el botón “Nuevo chat” para comenzar a crear nuevas <span>redes de contacto para tu empresa o emprendimiento.</span></p>
-      <button class="activate">Activa ahora</button>
-    </main>
+
+    <!-- Panel Derecho -->
+    <section class="info-panel">
+      <img src="./assets/img/hand.png" alt="manos" class="hand-image">
+      <h2>Comienza el Networking</h2>
+      <p>Presiona el botón “Nuevo chat” para comenzar a crear nuevas redes de contacto para tu empresa o emprendimiento.</p>
+      <button class="activar">
+        <i class="fas fa-bolt"></i> Activa ahora
+      </button>
+    </section>
   </div>
+
 </body>
 </html>

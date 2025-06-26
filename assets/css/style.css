@@ -19,6 +19,54 @@ body {
   border-right: 1px solid #ccc;
 }
 
+.contact-list-online {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+.contact-card-online {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  gap: 12px;
+}
+
+.avatar-online {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact-info-online {
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre-online {
+  font-weight: bold;
+}
+
+.descripcion-online {
+  color: #666;
+  font-size: 14px;
+}
+
+.iconos-online {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+}
+
 .nuevo-chat {
   background-color: #A491D2;
   color: white;

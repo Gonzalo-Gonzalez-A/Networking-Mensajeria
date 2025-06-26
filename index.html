@@ -1,45 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Networking-Messenger</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat Layout</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
-    <div style="display: flex"> <!-- Nuevo contenedor flex -->
-<div
-style="
-display: flex;
-align-items: center;
-flex-direction: column;
-width: 9em;
-background-color: aqua;
-min-height: 100vh;
-flex-wrap: wrap;
-"
->
-<p>Item 1</p>
-<p>Item 2</p>
-<p>Item 3</p>
-<p>Item 4</p>
-<p>Item 5</p>
-<p>Item 6</p>
-<p>Item 7</p>
-<p>Item 8</p>
-<p>Item 9</p>
-<p>Item 10</p>
-</div>
-<div>
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
-Consequatur
-voluptate sapiente corporis quia libero cum tempore, laborum
-velit
-reprehenderit fuga, cumque expedita quibusdam ratione in. Et
-veritatis
-rerum vel fuga.
-</div>
-</div>
-_
+  <div class="container">
+    <aside class="sidebar">
+      <button class="new-chat">Nuevo Chat</button>
+      <ul class="chat-list">
+        <li>Juanita <span>At vero eos et accusa</span></li>
+        <li>Alberto <span>blanditiis praesentium</span></li>
+        <li>Ignacio <span>officiis debitis aut</span></li>
+        <li>Cristian <span>Nam libero tempore</span></li>
+        <li>María José <span>impedit quo minus id</span></li>
+        <li>Gonzalo <span>At vero eos et accusa</span></li>
+        <li>Juan Pablo <span>necessitatibus saepe</span></li>
+        <li>Magdalena <span>ut et voluptates</span></li>
+      </ul>
+    </aside>
+    <main class="main">
+        <img src="./assets/img/hand.png" alt="manos unidas" class="hand-image" />
+      <h1>Comienza el Networking</h1>
+      <p>Presiona el botón “Nuevo chat” para comenzar a crear nuevas redes de contacto para tu empresa o emprendimiento.</p>
+      <button class="activate">Activa ahora</button>
+    </main>
+  </div>
 </body>
 </html>
